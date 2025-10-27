@@ -1,0 +1,70 @@
+/* BARRA DE NAVEGAÇÃO*/
+
+/*posição da barra*/
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+/*estilo do titulo*/
+.sidenav h1 {
+ padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  color: #818181;
+  display: block;
+}
+/*estilo das opções*/
+.sidenav a {
+  padding: 20px 8px 20px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+}
+/*interação com as opções*/
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+
+main {
+    border: 2px solid black;margin-left: 300px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+
+
+/* Estilo para o cartão gerado */
+.cartao-visita {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 25px;
+    width: 400px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.cartao-visita h3 {
+    margin-top: 0;
+    font-size: 28px; /* Tamanho um pouco menor que o título da página */
+    color: #333;
+}
+
+.cartao-visita p {
+    font-size: 20px; /* Tamanho menor para o corpo */
+    line-height: 1.5;
+}
+
+
+.caixa-cartão{
+  margin: 20px;
+}

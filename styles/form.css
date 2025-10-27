@@ -1,0 +1,98 @@
+/* BARRA DE NAVEGAÇÃO*/
+
+/*posição da barra*/
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+/*estilo do titulo*/
+.sidenav h1 {
+ padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  color: #818181;
+  display: block;
+}
+/*estilo das opções*/
+.sidenav a {
+  padding: 20px 8px 20px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+}
+/*interação com as opções*/
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+
+main {
+    border: 2px solid black;margin-left: 300px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+
+/*CRIAÇÃO DO CARTÃO*/
+
+/*inputs*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+/*botão para criar*/
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MENSAGEM ERRO*/
+
+.mensagemErro {
+  margin-right: 850px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}

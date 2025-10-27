@@ -1,0 +1,42 @@
+/* BARRA DE NAVEGAÇÃO*/
+
+/*posição da barra*/
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+/*estilo do titulo*/
+.sidenav h1 {
+ padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  color: #818181;
+  display: block;
+}
+/*estilo das opções*/
+.sidenav a {
+  padding: 20px 8px 20px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+}
+/*interação com as opções*/
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+
+main {
+    border: 2px solid black;margin-left: 300px;
+    font-size: 28px;
+    padding: 0px 10px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="img/icon.png">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <header>
+        <nav class="sidenav">
+            <h1>Gerador de Cartão de Visita</h1>
+                <a href="index.html">Inicio</a>
+                <a href="form.html">Criar Cartão</a>
+                <a href="formAction.html">Cartão Criado</a>
+                <a href="about.html">Sobre nós</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1>CRIAR CARTÃO</h1>
+         <div>
+            <div>
+                <label for="name"><b>Empresa</b></label>
+                <input id="name" type="text" placeholder="Nome da empresa" name="name" required>
+                <small class="mensagemErro" id="erro-name"></small>
+            </div>
+
+            <div>
+                <label for="phone"><b>Telefone</b></label>
+                <input id="phone" type="text" placeholder="Telefone da empresa" name="phone" required>
+                <small class="mensagemErro" id="erro-phone"></small>
+            </div>
+
+            <div>
+                <label for="email"><b>Email</b></label>
+                <input id="email" type="text" placeholder="Email da empresa" name="email" required>
+                <small class="mensagemErro" id="erro-email"></small>
+            </div>
+
+
+            <button id="btn-verify" type="submit">Verificar</button>
+            <button id="btn-create">Criar Cartão</button>
+         </div>
+
+
+
+    </main>
+
+    <script type="module" src="js/form-action.js"></script>
+    <script type="module" src="js/form-validation.js"></script>
+</body>
+</html>
